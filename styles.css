@@ -1,0 +1,110 @@
+* {
+    border: 1px solid red;
+}
+
+.background {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.signup {
+    flex: 7;
+    height: 100%;
+}
+
+.picture {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    background-image: url("tree.jpg");
+    height: 580px;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.transparent {
+    display: flex;
+    background-color: black;
+    opacity: .5;
+    margin-top: 30%;
+    height: 100px;
+    width: 415px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.name {
+    font-family: 'odinFont', sans-serif;
+    display: flex;
+    border: 1px solid pink;
+    margin: 10px;
+    opacity: 1;
+    color: white;
+    width: 150px;
+    font-size: 4rem;
+    margin-top: 20px;
+}
+
+.name img {
+    border: 1px solid blue;
+    height: 75px;
+    width: 75px;
+    object-fit: contain;
+    padding-bottom: 20px;
+}
+
+.yap {
+    margin-right: 200px;
+    height: 150px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.signup p1, p2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'odinFont';
+    src: url('Norse-bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.signUpSheet {
+    display: flex;
+    width: 700px;
+}
+
+.sheet {
+    width: 700px;
+    gap: 10px;
+    display: flex;
+    height: 300px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.box label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
